@@ -1,0 +1,27 @@
+Welcome to the Twitter Tides  PHP library!
+------------------------------------------
+There are two scripts in this library:
+ - build.php: converts LINZ format tide tables to one-line-per-tide CSV
+ - run.php: Runs from cron every minute to see if a tweet needs sending
+
+example.csv shows the required file format with date, time, and high or low
+height
+
+Licence
+-------
+The library is licenced with the New BSD Licence. See the file LICENCE in the
+distribution directory.
+
+
+Prerequisites
+-------------
+This library requires:
+
+ - Arc90 Twitter Service API
+    + http://lab.arc90.com/2008/06/03/php-twitter-api-client/
+
+Download and save it somewhere that run.php can access.
+
+Contact
+-------
+stuart@stuartlewis.com
